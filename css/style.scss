@@ -1,0 +1,40 @@
+
+	*{
+		
+		margin: 0;
+		padding: 0;
+		
+		box-sizing: border-box;
+		
+	}
+	
+	html, body, #container{
+		
+		height: 100%;
+		width: 100%;
+		
+	}
+	
+	#bannercont{
+		background: black;
+		
+		position: absolute;
+		top: 50px;
+		
+		width: 100%;
+		
+		padding: 10px;
+		
+	}
+	
+	.banner{
+		color: white;
+		
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+		
+		text-align: center;
+		
+		
+	}
