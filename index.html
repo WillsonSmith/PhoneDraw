@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title></title>
+<meta charset="utf-8">
+</head>
+
+<style>
+	
+	*{
+		
+		margin: 0;
+		padding: 0;
+		
+		box-sizing: border-box;
+		
+	}
+	
+	html, body, #container{
+		
+		height: 100%;
+		width: 100%;
+		
+	}
+	
+	#bannercont{
+		background: black;
+		
+		position: absolute;
+		top: 50px;
+		
+		width: 100%;
+		
+		padding: 10px;
+		
+	}
+	
+	.banner{
+		color: white;
+		
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+		
+		text-align: center;
+		
+		
+	}
+	
+</style>
+
+<body>
+	
+	<div id="bannercont">
+		<div class="banner">Touch and Drag to Draw<br> Double Tap to Clear <br> Tap this to Remove</div>
+	</div>
+<div id='container'>
+	<canvas id="drawBox">
+	</canvas>
+</div>
+
+<script src="js/QuoJS.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
